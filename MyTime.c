@@ -92,8 +92,8 @@ void parent(){
   if (cpuS < 0)//if times fail
 	perror("times error");
   else {//if times is ok
-	cpuUser=((double) cpuTake.tms_cutime)/CLK_TCK;
-	cpuSystem=((double) cpuTake.tms_cstime)/CLK_TCK;
+	cpuUser=((double) cpuTake.tms_cutime)/CLOCKS_PER_SEC;
+	cpuSystem=((double) cpuTake.tms_cstime)/CLOCKS_PER_SEC;
   }
   printf("CPU system time for executing is %lf \n",cpuSystem);
   printf("CPU user time for executing is %lf \n",cpuUser);
