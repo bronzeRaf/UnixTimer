@@ -17,9 +17,11 @@ After the compile process run the mytime.exe given the command and its arguments
 
 and the respond is:
 
-``` ...folder, files and
+``` 
+...folders, files and
 Real wall clock time for execution is 0.002733 
 CPU system time for executing is 0.000000 
-CPU user time for executing is 0.000000 ```
+CPU user time for executing is 0.000000
+```
 
 That's it... You have your timer!
