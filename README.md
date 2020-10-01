@@ -11,7 +11,7 @@ In the working directory, make sure you have "makefile" and "MyTime.c". Open a t
 
 ## Run
 
-After the compile process run the mytime.exe given the command and its arguments, separated by spaces. The timer will respond with the runtime of the command. For example:
+After the compile process run the mytime.exe given the command and its arguments, separated by spaces. The timer will respond with the real time, the cpu system time and the cpu user time of the command. For example:
 
 ``` $ ./mytime /bin/ls -la```
 
